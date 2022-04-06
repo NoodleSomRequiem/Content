@@ -1,0 +1,176 @@
+
+
+
+
+body {
+    background-color: plum;
+    font-size: 18px;
+
+
+}
+
+
+h1, h2{
+    margin-top: 8px;
+    font-weight:normal;
+
+}
+
+nav {
+    background-color: orchid;
+    display:flex;
+    justify-content:space-evenly;
+    height:50px;
+    font-size:30px;
+
+}
+
+header {
+
+    font-size:4em;
+    padding-top:10vh;
+    color: blueviolet;
+    text-align:center;
+    height:20vh;
+    background-image:url();
+    background-size:cover;
+    background-position:center;
+}
+
+section {
+    background-color: orchid;
+    padding: 10px;
+    margin: 70px auto;
+    font-size: 1em;
+    width: 75%;
+
+
+}
+
+footer {
+    background-color: orchid;
+
+
+}
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 1px;
+}
+@media screen and (max-width: 992px) {
+    body {
+        background-color: plum;
+        font-size: 14px;
+    }
+    h1, h2{
+        margin-top: 6px;
+        font-weight:normal;
+
+    }
+
+    nav {
+        background-color: orchid;
+        display:flex;
+        justify-content:space-evenly;
+        height:30px;
+        font-size:12px;
+
+    }
+
+
+    header {
+
+        font-size:2em;
+        padding-top:10vh;
+        color: blueviolet;
+        text-align:center;
+        height:10vh;
+        background-size:cover;
+        background-position:center;
+    }
+
+    section {
+        background-color: orchid;
+        padding: 10px;
+        margin: 70px auto;
+        font-size: 1em;
+        width: 75%;
+
+
+    }
+
+    footer {
+        background-color: orchid;
+
+
+    }
+    .row {
+        display: flex;
+    }
+
+    .column {
+        flex: 33.33%;
+        padding: 1px;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    body {
+        background-color: plum;
+        font-size: 10px;
+    }
+    h1, h2{
+        margin-top: 4px;
+        font-weight:normal;
+
+    }
+
+    nav {
+        background-color: orchid;
+        display:flex;
+        justify-content:space-evenly;
+        height:20px;
+        font-size:8px;
+
+    }
+
+
+    header {
+
+        font-size:2em;
+        padding-top:10vh;
+        color: blueviolet;
+        text-align:center;
+        height:10vh;
+        background-size:cover;
+        background-position:center;
+    }
+
+    section {
+        background-color: orchid;
+        padding: 10px;
+        margin: 70px auto;
+        font-size: 1em;
+        width: 50%;
+
+
+    }
+
+    footer {
+        background-color: orchid;
+
+
+    }
+    .row {
+        display: flex;
+    }
+
+    .column {
+        flex: 33.33%;
+        padding: 1px;
+    }
+
+}
